@@ -30,9 +30,9 @@
         <h1 class="welcome-header_title"> Welcome to KOKOA CLONE</h1>
         <p class="welcome-header_text"> If you have a KOKOA ACCOUNT, log in with your email or phone number</p>
     </header>
-    <form id="login-form">
-        <input type="text" placeholder="emali or phone number" />
-        <input type="password" placeholder="password" />
+    <form action="friends.htm" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="emali or phone number" />
+        <input name="password" required minlength="8" type="password" placeholder="password" />
         <input type="submit" value="log in" />
         <a href="#"> Find KOKOA Account or PASSWORD</a>
     </form>
