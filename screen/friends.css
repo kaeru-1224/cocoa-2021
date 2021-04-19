@@ -6,10 +6,23 @@
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
+}
+.friends-screen_channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen_channel-header {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+
+  color: rgba(0, 0, 0, 0.5);
 }
