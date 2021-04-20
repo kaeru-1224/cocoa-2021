@@ -1,0 +1,47 @@
+#chat_screen_cinnchat {
+  background-color: #6993cd;
+  height: 110vh;
+}
+#chat_screen_cinnchat .alt-header,
+#chat_screen_cinnchat .status-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  background-color: #6993cd;
+}
+#chat_screen_cinnchat .status-bar {
+  z-index: 2;
+}
+
+#chat_screen_cinnchat .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+#chat_screenpom {
+  background-color: #ee8484;
+  height: 110vh;
+}
+#chat_screenpom.alt-header,
+#chat_screenpom.status-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  background-color: #ee8484;
+}
+#chat_screenpom.status-bar {
+  z-index: 2;
+}
+
+#chat_screenpom.alt-header {
+  top: 10px;
+  z-index: 1;
+}
+.main-chat2 {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
