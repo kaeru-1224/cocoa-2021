@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Froends-Welcome to KOKOA</title>
+    <title>Setting-Welcome to KOKOA</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -25,44 +25,47 @@
         </div>
     </div>
 
-
-    <header class="screen-header">
-        <h1 class="screen-header__title"> Chats</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search  fa-lg"></i></span>
-            <span><i class="far fa-comment-dots  fa-lg"></i></span>
-            <span> <i class="fas fa-music fa-lg"></i></span>
-            <span>
-                <i class="fas fa-cog fa-lg"></i>
-            </span>
-
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.htm"> <i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search  fa-2x"></i></span>
         </div>
     </header>
 
+
+
+
     <main class="main-screen">
-        <a href="chat.htm">
-            <div class="user-component">
-                <div class="user-component__colum">
-                    <img src="https://img.stickers.cloud/packs/04ff8181-eb75-4b40-8e48-b56d43023097/webp/dcf11261-8784-45aa-abfd-7f9385c8d5da.webp"
-                        class="user-component__avatar  user-component__avatar " />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title"> kerropi</h4>
-                        <h6 class="user-component__subtitle"> Please Check My Kokoa Account Info</h6>
-
-                    </div>
+        <ul class="settings-list">
+            <li class="settings-setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
                 </div>
-                <div class="user-component__colum">
-                    <sapn class="user-component__time">21:22</sapn>
-                    <div class="badge">1</div>
-
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Sanrio Lab</span>
                 </div>
+                <div class="settings__setting-column"></div>
+            <li class="settings-setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">Latest Version</div>
+            </li>
 
-            </div>
 
+        </ul>
 
-
-            </div>
-        </a>
 
     </main>
 
@@ -78,7 +81,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.htm">
                     <span class="nav_notification badge">1</span>
-                    <i class="fas fa-comments fa-2x"></i>
+                    <i class="far fa-comments fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">

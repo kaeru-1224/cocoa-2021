@@ -26,3 +26,17 @@
 
   color: rgba(0, 0, 0, 0.5);
 }
+
+.new-friends,
+.new__line > .user-component__colum {
+  margin-top: 10px;
+}
+.new__line > .user-component__colum {
+  margin-bottom: 10px;
+}
+.new__line {
+  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+}
+.new__header {
+  margin: 0px;
+}

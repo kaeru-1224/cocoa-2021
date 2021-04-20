@@ -1,0 +1,58 @@
+.user-component__subtitleicon {
+  width: 8px;
+  height: 8px;
+  color: tomato;
+  border: 1px solid tomato;
+  border-radius: 50%;
+}
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+.more-suggestions__title__icons {
+  display: flex;
+  justify-content: space-around;
+}
+.more-suggestions__title__icon {
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.more-suggestions__title__icon-img {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__title__icon-img i {
+  font-size: 30px;
+  color: white;
+}
+.more-suggestions__title__icon-txt {
+  font-weight: 500;
+}
+.more-suggestions__title__icons
+  :nth-child(2)
+  > .more-suggestions__title__icon-img {
+  background-color: #e3f484;
+}
+
+.more-suggestions__title__icons
+  :nth-child(3)
+  > .more-suggestions__title__icon-img {
+  background-color: #83e27c;
+}

@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .user-component,
 .user-component__colum:first-child {
@@ -8,7 +9,7 @@
 }
 .user-component__colum img {
   margin-left: 0px;
-  border: 1px solid rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .user-component__avatar {
   width: 70px;
