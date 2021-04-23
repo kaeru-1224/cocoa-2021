@@ -80,6 +80,24 @@
   right: 10px;
   font-size: 12px;
 }
+@keyframes heartbeats {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.4);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
 .open-post__heart-count span {
   margin-left: 3px;
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeats 1s linear infinite;
 }
